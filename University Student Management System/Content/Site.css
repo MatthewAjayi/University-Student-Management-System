@@ -1,0 +1,38 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 25px;
+    text-align: center;
+}
+
+.default {
+    margin-top: 15px;
+    border-color: #000000;
+}
+
+.default:hover {
+    background: #e7e7e7;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}

@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title" style="text-align:center;">Welcome To USMS.</h1>
+            <p class="lead">This is a free application that allows administrators from all universities to perform various actions (add,edit, update, delete) with the students in their university database.</p>
+        @*<p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>*@
+    </section>
+
+    <div class="row card-space">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <div class="card">
+                <h3 class="card-header" id="gettingStartedTitle">Register New Students</h3>
+                <div class="card-body">
+                    <img src="~/register-students.gif" alt="Register Students" class="img-fluid" />
+                    <p>
+                        A university administartor will be able to register new students to their system.
+                    </p>
+                    <!-- Your other content here -->
+                </div>
+            </div>
+        </section>
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <div class="card">
+                <h3 class="card-header" id="gettingStartedTitle">Edit Student Information</h3>
+                <div class="card-body">
+                    <img src="~/edit-student.jpeg" alt="Edit Students" class="img-fluid" />
+                    <p>
+                        A university administartor will be able to edit new or old students information in their system.
+                    </p>
+                    <!-- Your other content here -->
+                </div>
+            </div>
+        </section>
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <div class="card">
+                <h3 class="card-header" id="gettingStartedTitle">Remove Student Information</h3>
+                <div class="card-body">
+                    <img src="~/remove-students.jpg" alt="Remove Students" class="img-fluid" />
+                    <p>
+                        A university administartor will be able to remove newly created students or existing students from their system.
+                    </p>
+                    <!-- Your other content here -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+</main>
+
+<style>
+    .card-space{
+        margin-top:100px;
+        
+    }
+</style>
